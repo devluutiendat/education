@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Phaser from "phaser";
+import CountObjectsGame from "../games/counting";
 
 export default function GamePage() {
   useEffect(() => {
@@ -8,7 +9,7 @@ export default function GamePage() {
       width: 900,
       height: 600,
       parent: "game-container",
-      scene: []
+      scene: [CountObjectsGame]
     });
 
     return () => game.destroy(true);

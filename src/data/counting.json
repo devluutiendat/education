@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "Có bao nhiêu quả táo?",
+    "image": "apple",
+    "count": 3
+  },
+  {
+    "id": 2,
+    "question": "Có bao nhiêu sấm?",
+    "image": "thunder",
+    "count": 5
+  },
+  {
+    "id": 3,
+    "question": "Có bao nhiêu nguyên tử?",
+    "image": "atomic",
+    "count": 4
+  }
+]
