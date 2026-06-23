@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "question": "Có bao nhiêu quả táo?",
+    "object": "quả táo?",
     "image": "apple",
     "count": 3
   },
   {
     "id": 2,
-    "question": "Có bao nhiêu sấm?",
+    "object": "sấm?",
     "image": "thunder",
     "count": 5
   },
   {
     "id": 3,
-    "question": "Có bao nhiêu nguyên tử?",
+    "object": "nguyên tử?",
     "image": "atomic",
     "count": 4
   }

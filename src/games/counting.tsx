@@ -34,9 +34,9 @@ export default class CountObjectsGame extends Phaser.Scene {
 
     const question = questions[this.currentQuestion];
 
-    this.add.text(250, 50, question.question, {
+    this.add.text(250, 50, `Có bao nhiêu ${question.object}?`, {
       fontSize: "32px",
-      color: "#000",
+      color: "#fff",
     });
 
     for (let i = 0; i < question.count; i++) {
@@ -109,7 +109,7 @@ export default class CountObjectsGame extends Phaser.Scene {
       "🎉 Game Finished!",
       {
         fontSize: "48px",
-        color: "#000",
+        color: "#fff",
       }
     );
   }
