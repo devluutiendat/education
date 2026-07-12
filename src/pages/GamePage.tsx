@@ -1,16 +1,17 @@
 import { useEffect } from "react";
 import Phaser from "phaser";
-import CountObjectsGame from "../games/counting";
-import ShapeClassificationGame from "../games/drop";
+import { config } from "../components/config";
+import MenuScene from "../components/MenuScene";
+import CountingScene from "../games/CountingScene";
+import ShapeClassificationScene from "../games/ShapeClassificationScene";
 
 export default function GamePage() {
   useEffect(() => {
-    const game = new Phaser.Game({
-      type: Phaser.AUTO,
-      width: 900,
-      height: 600,
-      parent: "game-container",
-      scene: [ShapeClassificationGame]
+    const game = new Phaser.Game({...config, scene: [
+    MenuScene,
+    CountingScene,
+    ShapeClassificationScene,
+  ],
     });
 
     return () => game.destroy(true);
@@ -22,3 +23,4 @@ export default function GamePage() {
     </div>
   );
 }
+

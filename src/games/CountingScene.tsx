@@ -2,12 +2,12 @@ import Phaser from "phaser";
 import questions from "../data/counting.json";
 import thunderImage from "../assets/vite.svg";
 import atomicImage from "../assets/react.svg";
-export default class CountObjectsGame extends Phaser.Scene {
+export default class CountingScene extends Phaser.Scene {
   private currentQuestion = 0;
   private score = 0;
   
   constructor() {
-    super("CountObjectsGame");
+    super("CountingScene");
   }
 
   preload() {

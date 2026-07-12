@@ -8,12 +8,12 @@ interface ShapeData {
   y: number;
 }
 
-export default class ShapeClassificationGame extends Phaser.Scene {
+export default class ShapeClassificationScene extends Phaser.Scene {
   private score = 0;
   private totalShapes = 0;
 
   constructor() {
-    super('ShapeClassificationGame');
+    super('ShapeClassificationScene');
   }
 
   create() {
