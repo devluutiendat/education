@@ -36,7 +36,7 @@ export default class MenuScene extends Phaser.Scene {
       width / 2,
       480,
       '➕ Cộng trừ số học',
-      () => this.scene.start('MathScene')
+      () => this.scene.start('CalculatingScene')
     );
 
     this.createBackButton();

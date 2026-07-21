@@ -4,6 +4,7 @@ import { config } from "../components/config";
 import MenuScene from "../components/MenuScene";
 import CountingScene from "../games/CountingScene";
 import ShapeClassificationScene from "../games/ShapeClassificationScene";
+import CalculatingScene from "../games/CalculatingScene";
 
 export default function GamePage() {
   useEffect(() => {
@@ -11,6 +12,7 @@ export default function GamePage() {
     MenuScene,
     CountingScene,
     ShapeClassificationScene,
+    CalculatingScene
   ],
     });
 
