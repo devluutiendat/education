@@ -1,12 +1,5 @@
 import Phaser from 'phaser';
-
-type ShapeType = 'circle' | 'square' | 'triangle';
-
-interface ShapeData {
-  type: ShapeType;
-  x: number;
-  y: number;
-}
+import type { ShapeData, ShapeType } from '../type';
 
 export default class ShapeClassificationScene extends Phaser.Scene {
   private score = 0;

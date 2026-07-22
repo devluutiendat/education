@@ -6,7 +6,7 @@ export default class MenuScene extends Phaser.Scene {
   }
 
   create() {
-    const { width, height } = this.scale;
+    const { width } = this.scale;
 
     this.cameras.main.setBackgroundColor('#f5f7fb');
 

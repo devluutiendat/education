@@ -8,12 +8,13 @@ import CalculatingScene from "../games/CalculatingScene";
 
 export default function GamePage() {
   useEffect(() => {
-    const game = new Phaser.Game({...config, scene: [
-    MenuScene,
-    CountingScene,
-    ShapeClassificationScene,
-    CalculatingScene
-  ],
+    const game = new Phaser.Game({
+      ...config, scene: [
+        MenuScene,
+        CountingScene,
+        ShapeClassificationScene,
+        CalculatingScene
+      ],
     });
 
     return () => game.destroy(true);
